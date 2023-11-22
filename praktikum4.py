@@ -4,9 +4,9 @@ a = "saya"
 jajan = 60000
 
 if (jajan == 40000):
-    keterangan = "jajan cukup"
+     keterangan = "jajan cukup"
 else:
-    keterangan = "jajan berlebih"
+     keterangan = "jajan berlebih"
 print(a,"jajan hari ini sebesar Rp.", jajan, keterangan)
 
 #yang true
@@ -15,14 +15,14 @@ a = "saya"
 beratbadan = 68
 
 if (beratbadan == 68):
-    keterangan = "berat badan cukup"
+     keterangan = "berat badan cukup"
 else:
-    keterangan = "olahraga bang"
+     keterangan = "olahraga bang"
 print(a,"memiliki", beratbadan,"Kg" ,keterangan)
 
 #top up game
 
-a = "saya"
+a = input('masukan nama')
 topup = 20000
 
 if (topup < 20000):
